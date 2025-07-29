@@ -128,33 +128,34 @@
 
   <!-- Cabeçalho Hero -->
   <section class="hero-gradient min-h-[80vh] flex items-center justify-center text-center px-6 relative overflow-hidden">
-    <div class="absolute inset-0 bg-gradient-to-t from-[#0a1f3d] to-transparent opacity-90 z-0"></div>
-    <div class="wave-shape">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-        <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-      </svg>
-    </div>
-    <div class="relative z-10 max-w-4xl">
-      <h1 class="text-6xl md:text-8xl font-bold mb-6 neon-text animate__animated animate__fadeInDown">
-        Lá & Açúcar
-      </h1>
-      <p class="text-xl md:text-2xl mb-8 animate__animated animate__fadeIn animate__delay-1s">
-        Um universo doce em cada <span class="highlight font-semibold">mordida.</span>
-      </p>
-      <a href="https://wa.me/5511948572007" target="_blank"
-  class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition-all">
-  Fazer Pedido →
-</a>
-    </div>
-    
-    <!-- Elementos decorativos -->
-    <div class="absolute top-20 left-10 w-8 h-8 rounded-full bg-[#7ec4ff] opacity-20 animate-pulse"></div>
-    <div class="absolute bottom-1/4 right-20 w-12 h-12 rounded-full bg-[#4a8cff] opacity-15 animate-pulse"></div>
-  </section>
+  <div class="absolute inset-0 bg-gradient-to-t from-[#0a1f3d] to-transparent opacity-90 z-0"></div>
+  
+  <div class="wave-shape">
+    <!-- (SVG mantido como está) -->
+  </div>
+  
+  <div class="relative z-10 max-w-4xl">
+    <!-- LOGO AQUI -->
+    <img src="logo.png" alt="Logo Lá & Açúcar" class="mx-auto mb-6 w-32 md:w-40 animate__animated animate__fadeInDown" />
 
-  <!-- Produtos em destaque -->
+    <h1 class="text-6xl md:text-8xl font-bold mb-6 neon-text animate__animated animate__fadeInDown">
+      Lá & Açúcar
+    </h1>
+    <p class="text-xl md:text-2xl mb-8 animate__animated animate__fadeIn animate__delay-1s">
+      Um universo doce em cada <span class="highlight font-semibold">mordida.</span>
+    </p>
+    <a href="https://wa.me/5511968154258" target="_blank"
+      class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition-all">
+      Fazer Pedido →
+    </a>
+  </div>
+
+  <!-- Elementos decorativos -->
+  <div class="absolute top-20 left-10 w-8 h-8 rounded-full bg-[#7ec4ff] opacity-20 animate-pulse"></div>
+  <div class="absolute bottom-1/4 right-20 w-12 h-12 rounded-full bg-[#4a8cff] opacity-15 animate-pulse"></div>
+</section>
+
+
   <!-- Produtos em destaque -->
 <section class="py-20 px-6 max-w-7xl mx-auto">
   <div class="text-center mb-16">
@@ -167,107 +168,123 @@
   </div>
 
   <div class="grid md:grid-cols-3 gap-8">
-    <!-- Milk-Sheik -->
-    <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp">
-      <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
-        🥤
-      </div>
-      <h3 class="text-2xl font-bold mb-3 highlight">Milk-Sheik</h3>
-      <p class="mb-4 text-[#a8c8ff]">Cremoso e irresistível, feito com ingredientes premium</p>
-      <ul class="text-left mb-6 space-y-2 text-sm">
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Morango cremoso
-        </li>
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Ovomaltine crocante
-        </li>
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Creme saboroso
-        </li>
-      </ul>
-      <span class="text-sm font-semibold accent-text">300ml e 500ml a partir: de 20,00</span>
+  <!-- Milk-Sheik -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
+      🥤
     </div>
-
-    <!-- Geladinho -->
-    <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s">
-      <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
-        ❄️
-      </div>
-      <h3 class="text-2xl font-bold mb-3 highlight">Geladinho </h3>
-      <p class="mb-4 text-[#a8c8ff]">Refrescante e cheio de personalidade</p>
-      <ul class="text-left mb-6 space-y-2 text-sm">
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Coco 
-        </li>
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Manga 
-        </li>
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Goiaba 
-        </li>
-      </ul>
-      <span class="text-sm font-semibold accent-text">R$2,00</span>
-    </div>
-
-    <!-- Pães de Mel -->
-    <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s">
-      <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
-        🍯
-      </div>
-      <h3 class="text-2xl font-bold mb-3 highlight">Pães de Mel</h3>
-      <p class="mb-4 text-[#a8c8ff]">Tradição reinventada com muito carinho</p>
-      <ul class="text-left mb-6 space-y-2 text-sm">
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Doce de Leite
-        </li>
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>
-          Brigadeiro
-        </li>
-      </ul>
-      <span class="text-sm font-semibold accent-text">R$ 7,50</span>
-    </div>
-
-    <!-- Mini Churros -->
-    <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-3s">
-      <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
-        🌟
-      </div>
-      <h3 class="text-2xl font-bold mb-3 highlight">Mini Churros</h3>
-      <p class="mb-4 text-[#a8c8ff]">Recheados com muito carinho e doce de leite</p>
-      <ul class="text-left mb-6 space-y-2 text-sm">
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span>
-          10 unidades - R$12,00
-        </li>
-      </ul>
-      <span class="text-sm font-semibold accent-text">Experimente agora!</span>
-    </div>
-
-    <!-- Coxinhas -->
-    <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-3s">
-      <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
-        🧆
-      </div>
-      <h3 class="text-2xl font-bold mb-3 highlight">Coxinhas</h3>
-      <p class="mb-4 text-[#a8c8ff]">Crocantes por fora e super recheadas por dentro</p>
-      <ul class="text-left mb-6 space-y-2 text-sm">
-        <li class="flex items-center">
-          <span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span>
-          10 unidades - R$12,50
-        </li>
-      </ul>
-      <span class="text-sm font-semibold accent-text">Uma mordida e você vai querer mais!</span>
-    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Milk-Sheik</h3>
+    <p class="mb-4 text-[#a8c8ff]">Cremoso e irresistível, feito com ingredientes premium</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Morango cremoso</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Ovomaltine crocante</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Creme saboroso</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Maracuja refrescante</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span>  Coco loco</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">300ml e 500ml a partir: R$ 18,00</span>
   </div>
-</section>
+
+  <!-- Geladinho -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-1s">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
+      ❄️
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Geladinho</h3>
+    <p class="mb-4 text-[#a8c8ff]">Refrescante e cheio de personalidade</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Coco</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Manga</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Goiaba</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">R$ 2,00</span>
+  </div>
+
+  <!-- Pães de Mel -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-2s">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
+      🍯
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Pães de Mel</h3>
+    <p class="mb-4 text-[#a8c8ff]">Tradição reinventada com muito carinho</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Doce de Leite</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Brigadeiro</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Prestigio</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">R$ 7,50</span>
+  </div>
+
+  <!-- Mini Churros -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-3s">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
+      🌟
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Mini Churros</h3>
+    <p class="mb-4 text-[#a8c8ff]">Recheados com muito carinho e doce de leite</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> 10 unidades - R$ 12,00</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">Experimente agora!</span>
+  </div>
+
+  <!-- Coxinhas -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300 animate__animated animate__fadeInUp animate__delay-3s">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
+      🧆
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Coxinhas</h3>
+    <p class="mb-4 text-[#a8c8ff]">Crocantes por fora e super recheadas por dentro</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> 10 unidades - R$ 14,00</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">Uma mordida e você vai querer mais!</span>
+  </div>
+
+  <!-- Pudim -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
+      🍮
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Pudim</h3>
+    <p class="mb-4 text-[#a8c8ff]">Com Leite moça, leite em pó e creme de leite. Uma explosão cremosa de sabor!</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> Aproximadamente 130g</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">R$ 6,00</span>
+  </div>
+
+  <!-- Brownie -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#7ec4ff] to-[#4a8cff] rounded-full flex items-center justify-center text-4xl">
+      🍫
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Brownie</h3>
+    <p class="mb-4 text-[#a8c8ff]">Massa densa, chocolate nobre e muito recheio</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Brigadeiro</li>
+       <li class="flex items-center"><span class="w-2 h-2 bg-[#4a8cff] rounded-full mr-2"></span> Ninho</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">R$ 8,00</span>
+  </div>
+
+  <!-- Trufas Alcoólicas -->
+  <div class="glow-card p-8 rounded-2xl text-center hover:shadow-xl transition-all duration-300">
+    <div class="floating mx-auto mb-6 w-24 h-24 bg-gradient-to-br from-[#ff7eb9] to-[#ff5d9e] rounded-full flex items-center justify-center text-4xl">
+      🍷
+    </div>
+    <h3 class="text-2xl font-bold mb-3 highlight">Trufas Alcoólicas</h3>
+    <p class="mb-4 text-[#a8c8ff]">Sabor marcante e ousado para quem ama doces com atitude</p>
+    <ul class="text-left mb-6 space-y-2 text-sm">
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> Caipirinha de Limão</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> Jack Denil's</li>
+      <li class="flex items-center"><span class="w-2 h-2 bg-[#ff7eb9] rounded-full mr-2"></span> Absolut</li>
+    </ul>
+    <span class="text-sm font-semibold accent-text">R$ 6,50 cada</span>
+  </div>
+</div>
+
+
 
 
   <!-- Chamada para ação -->
@@ -283,7 +300,7 @@
       <h2 class="text-3xl md:text-4xl font-bold mb-6 neon-text">Pronto para uma experiência doce inesquecível?</h2>
       <p class="text-lg mb-8 text-[#a8c8ff]">Nossos doces são feitos sob encomenda com ingredientes selecionados e muito amor.</p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="https://wa.me/5511948572007" target="_blank"
+        <a href="https://wa.me/5511968154258" target="_blank"
   class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg transition-all">
   Fazer Pedido 
 </a>
@@ -304,31 +321,34 @@
           <p class="text-sm text-[#a8c8ff] mt-2">Um universo doce em cada mordida.</p>
         </div>
         
-      <div class="flex space-x-6">
+   <div class="flex space-x-6 items-center">
   <!-- Instagram -->
-  <a href="https://www.instagram.com/la.e.acucar/profilecard/?igsh=eDNyMDA4MDltM3dj" class="text-[#a8c8ff] hover:text-[#7ec4ff] transition" target="_blank">
+  <a href="https://www.instagram.com/la.e.acucar/profilecard/?igsh=eDNyMDA4MDltM3dj"
+     class="text-[#a8c8ff] hover:text-[#7ec4ff] transition" target="_blank">
     <span class="sr-only">Instagram</span>
-    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-      <path d="M7.75 2h8.5A5.76 5.76 0 0 1 22 7.75v8.5A5.76 5.76 0 0 1 16.25 22h-8.5A5.76 5.76 0 0 1 2 16.25v-8.5A5.76 5.76 0 0 1 7.75 2zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm4.75-3a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+      <path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.428.403a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.163.458.347 1.258.403 2.428.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.428a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.458.163-1.258.347-2.428.403-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.428-.403a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.163-.458-.347-1.258-.403-2.428C2.212 15.785 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.428a4.9 4.9 0 0 1 1.15-1.77 4.9 4.9 0 0 1 1.77-1.15c.458-.163 1.258-.347 2.428-.403C8.416 2.212 8.8 2.2 12 2.2zM12 0C8.736 0 8.332.012 7.052.07 5.765.128 4.658.314 3.765.637 2.843.968 2.06 1.438 1.318 2.18.576 2.922.106 3.705-.225 4.627c-.323.893-.509 2-.567 3.287C-.012 8.268 0 8.672 0 12s.012 3.732.07 5.013c.058 1.287.244 2.394.567 3.287.331.922.801 1.705 1.543 2.447.742.742 1.525 1.212 2.447 1.543.893.323 2 .509 3.287.567C8.268 23.988 8.672 24 12 24s3.732-.012 5.013-.07c1.287-.058 2.394-.244 3.287-.567.922-.331 1.705-.801 2.447-1.543.742-.742 1.212-1.525 1.543-2.447.323-.893.509-2 .567-3.287C23.988 15.732 24 15.328 24 12s-.012-3.732-.07-5.013c-.058-1.287-.244-2.394-.567-3.287a6.83 6.83 0 0 0-1.543-2.447A6.83 6.83 0 0 0 20.235.637c-.893-.323-2-.509-3.287-.567C15.732.012 15.328 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.77a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
     </svg>
   </a>
 
   <!-- WhatsApp -->
-  <a href="https://wa.me/5511948572007" class="text-[#a8c8ff] hover:text-[#7ec4ff] transition" target="_blank">
+  <a href="https://wa.me/5511968154258"
+     class="text-[#a8c8ff] hover:text-[#7ec4ff] transition" target="_blank">
     <span class="sr-only">WhatsApp</span>
-    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-      <path d="M20.52 3.48A11.85 11.85 0 0 0 12 0a11.85 11.85 0 0 0-8.52 3.48A11.85 11.85 0 0 0 0 12a11.84 11.84 0 0 0 1.53 5.79L0 24l6.21-1.61A11.84 11.84 0 0 0 12 24a11.85 11.85 0 0 0 8.52-3.48A11.85 11.85 0 0 0 24 12a11.85 11.85 0 0 0-3.48-8.52zM12 22a9.89 9.89 0 0 1-5.06-1.38l-.36-.21-3.69.96.99-3.6-.23-.38A9.93 9.93 0 1 1 12 22zm5.2-7.31c-.28-.14-1.67-.83-1.93-.93s-.45-.14-.64.14-.73.93-.89 1.12-.33.21-.61.07a8.15 8.15 0 0 1-2.41-1.48 9.2 9.2 0 0 1-1.7-2.11c-.18-.31 0-.48.13-.62.14-.14.31-.35.47-.53a2.12 2.12 0 0 0 .31-.52.55.55 0 0 0-.03-.53c-.08-.14-.64-1.53-.88-2.1-.23-.54-.46-.47-.64-.48h-.55a1 1 0 0 0-.72.34 3 3 0 0 0-.94 2.21c0 1.3.94 2.56 1.08 2.74s1.85 2.95 4.5 4.03a15.66 15.66 0 0 0 1.59.59 3.84 3.84 0 0 0 1.77.11c.54-.08 1.67-.68 1.9-1.34s.23-1.22.16-1.34-.26-.21-.54-.35z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 fill-current" viewBox="0 0 448 512">
+      <path d="M380.9 97.1C339 55.1 283.2 32 224.1 32 100.3 32 0 132.3 0 256c0 45 11.9 88.2 34.5 126.2L0 480l101.3-33.5c36.7 20 78.3 30.5 122.8 30.5h.1c123.7 0 224-100.3 224-224 .1-59.1-23-114.9-67.3-155.9zM224.1 438.5c-35 0-69.2-9.4-99.1-27.1l-7.1-4.2-60.1 19.9 20-58.4-4.6-7.4c-21.5-34.8-32.9-74.9-32.9-116.3 0-117.6 95.6-213.3 213.3-213.3 57 0 110.6 22.2 150.8 62.4s62.4 93.8 62.4 150.8c0 117.6-95.6 213.3-213.3 213.3zm121.3-146.5c-6.6-3.3-39.1-19.3-45.2-21.5-6.1-2.3-10.5-3.3-14.9 3.3-4.3 6.6-17.1 21.5-21 25.9-3.8 4.3-7.7 4.8-14.3 1.6-39.1-19.5-64.8-34.8-91.2-78.7-6.9-11.9 6.9-11.1 19.5-37.2 2.2-4.3 1.1-8-0.5-11.3-1.6-3.3-14.9-35.8-20.4-49.1-5.4-13-11-11.2-14.9-11.4-3.8-.2-8.2-.2-12.6-.2s-11.5 1.6-17.5 8c-6.1 6.6-23 22.4-23 54.6s23.5 63.3 26.8 67.7c3.3 4.3 46.1 70.3 111.7 98.6 15.6 6.8 27.7 10.8 37.2 13.8 15.6 5 29.9 4.3 41.1 2.6 12.5-1.9 39.1-16 44.6-31.5 5.5-15.6 5.5-29 3.8-31.5-1.6-2.3-6-3.8-12.6-7.1z"/>
     </svg>
   </a>
 
   <!-- iFood -->
-  <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/la--acucar-parque-reboucas/c9b2de44-b0df-47d0-802a-8659f00e36d0?UTM_Medium=share" class="text-[#a8c8ff] hover:text-[#7ec4ff] transition" target="_blank">
-    <span class="sr-only">iFood</span>
-    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-      <path d="M19.47 8.64A7.23 7.23 0 0 1 12 19.23 7.23 7.23 0 0 1 4.53 8.64a.76.76 0 1 0-1.41-.55 8.72 8.72 0 1 0 16.76 0 .76.76 0 1 0-1.41.55zM20.42 4h-1.78a.76.76 0 0 0 0 1.52h.42l-1.18 2.51a.76.76 0 0 0 .37 1 8.83 8.83 0 0 1 1.1.61.76.76 0 0 0 1-1.1 10.14 10.14 0 0 0-1.06-.61l.88-1.88h.25a.76.76 0 1 0 0-1.52z"/>
-    </svg>
+  <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/la--acucar-parque-reboucas/c9b2de44-b0df-47d0-802a-8659f00e36d0?UTM_Medium=share" 
+     class="inline-flex items-center gap-2 text-[#a8c8ff] hover:text-[#7ec4ff] transition text-lg font-semibold"
+     target="_blank">
+    <img src="ifood.jpg" alt="iFood" class="w-6 h-6 object-contain" />
+    Pedir pelo iFood
   </a>
 </div>
+
 
 
       
